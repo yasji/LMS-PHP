@@ -6,10 +6,7 @@ export async function setupLoans(container) {
   try {
     const loans = await getLoans();
 
-    // Check due date for each loan
-    // for (const loan of loans) {
-    //   await checkLoansDueDate(loan.Id);
-    // }
+    await checkLoansDueDate();
 
     const itemsPerPage = 10;
     let currentPage = 1;

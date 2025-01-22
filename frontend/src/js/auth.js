@@ -76,8 +76,8 @@ export async function setupAuth() {
   });
 
   // Check if user is already authenticated
-  const token = localStorage.getItem('token');
-  const user = JSON.parse(localStorage.getItem('user'));
+  const token = sessionStorage.getItem('token');
+  const user = JSON.parse(sessionStorage.getItem('user'));
   
   if (token && user) {
     loginContainer.classList.add('hidden');
@@ -104,11 +104,11 @@ function setupThemeToggle() {
   const themeToggle = document.getElementById('theme-toggle');
   themeToggle?.addEventListener('click', () => {
     document.documentElement.classList.toggle('dark');
-    localStorage.setItem('theme', document.documentElement.classList.contains('dark') ? 'dark' : 'light');
+    sessionStorage.setItem('theme', document.documentElement.classList.contains('dark') ? 'dark' : 'light');
   });
 
   // Initialize theme
-  if (localStorage.theme === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+  if (sessionStorage.theme === 'dark' || (!('theme' in sessionStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
     document.documentElement.classList.add('dark');
   } else {
     document.documentElement.classList.remove('dark');

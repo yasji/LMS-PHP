@@ -25,7 +25,7 @@ export async function generateDashboardData() {
     date.setMonth(date.getMonth() - i);
     const month = date.toLocaleString('default', { month: 'short' });
     const count = loans.filter(loan => {
-      const loanDate = new Date(loan.borrowedDate);
+      const loanDate = new Date(loan.borrowed_date);
       return loanDate.getMonth() === date.getMonth() &&
              loanDate.getFullYear() === date.getFullYear();
     }).length;

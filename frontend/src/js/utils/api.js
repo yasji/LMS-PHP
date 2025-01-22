@@ -13,7 +13,7 @@ const api = axios.create({
 
 // Add auth token to requests
 api.interceptors.request.use(config => {
-  const token = localStorage.getItem('token');
+  const token = sessionStorage.getItem('token');
   if (token) {
     config.headers.Authorization = `Bearer ${token}`;
   }
@@ -134,25 +134,22 @@ export async function deleteCategory(id) {
 export async function login(credentials) {
   const response = await api.post('/login', credentials);
   if (response.data.access_token) {
-    localStorage.setItem('token', response.data.access_token);
-    localStorage.setItem('user', JSON.stringify(response.data.user));
+    sessionStorage.setItem('token', response.data.access_token);
+    sessionStorage.setItem('user', JSON.stringify(response.data.user));
   }
   return response.data;
 }
-// export async function login(credentials) {
-//   const response = await api.post('/login', credentials);
-//   if (response.data.token) {
-//     localStorage.setItem('token', response.data.token);
-//     localStorage.setItem('user', JSON.stringify(response.data.user));
-//   }
-//   return response.data;
-// }
+
+
+
 
 export async function logout() {
   await api.post('/logout');
-  localStorage.removeItem('token');
-  localStorage.removeItem('user');
+  sessionStorage.removeItem('token');
+  sessionStorage.removeItem('user');
 }
+
+
 
 // Book Operations
 export async function BorrowBook(borrowerId, bookId) {
@@ -165,7 +162,12 @@ export async function ReturnBook(borrowerId, bookId) {
   return response.data;
 }
 
-export async function checkLoansDueDate(id) {
-  const response = await api.get(`/loans/${id}/check-due-date`);
+export async function checkLoansDueDate() {
+  const response = await api.get(`loans/overdue`);
+  return response.data;
+}
+
+export async function checkOwnLoansDueDate() {
+  const response = await api.get(`loans/overdue/{loan}`);
   return response.data;
 }

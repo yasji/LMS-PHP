@@ -5,7 +5,7 @@ import { showConfirmDialog2 } from '../../utils/dialog.js';
 
 export async function setupBorrowerDashboard(container) {
   const books = await getBooks();
-  const user = JSON.parse(localStorage.getItem('user'));
+  const user = JSON.parse(sessionStorage.getItem('user'));
   const id = user.id;
   const borrower = await getBorrower();
   // const borrowers = await getBorrowers();
