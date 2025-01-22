@@ -22,14 +22,13 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot(): void
     {
-        // $this->registerPolicies();
 
         #Define all my gates here 
 
         //Books
         Gate::define('manage-books', function (User $user) {
             Log::info('manage-books gate called', ['user_id' => $user->id]);
-            return in_array($user->role, ['Admin', 'Librarian']);
+            return in_array($user->role, ['Admin']);
         });
 
         Gate::define('delete-books', function (User $user) {
@@ -38,7 +37,7 @@ class AppServiceProvider extends ServiceProvider
 
         //Categories
         Gate::define('manage-categories', function (User $user) {
-            return in_array($user->role, ['Admin', 'Librarian']);
+            return in_array($user->role, ['Admin']);
         });
 
         Gate::define('delete-categories', function (User $user) {
@@ -47,11 +46,11 @@ class AppServiceProvider extends ServiceProvider
 
         //loans
         Gate::define('view-loans', function (User $user) {
-            return in_array($user->role, ['Admin', 'Librarian']);
+            return in_array($user->role, ['Admin']);
         });
 
         Gate::define('manage-loans', function (User $user) {
-            return in_array($user->role, ['Admin', 'Librarian']);
+            return in_array($user->role, ['Admin']);
         });
 
         Gate::define('delete-loans', function (User $user) {
@@ -69,7 +68,7 @@ class AppServiceProvider extends ServiceProvider
 
         // Authors
         Gate::define('manage-authors', function (User $user) {
-            return in_array($user->role, ['Admin', 'Librarian']);
+            return in_array($user->role, ['Admin']);
         });
 
         Gate::define('delete-authors', function (User $user) {
@@ -81,11 +80,6 @@ class AppServiceProvider extends ServiceProvider
             return $user->role === 'Admin';
         });
 
-        // Gate::define('view-own-profile', function (User $user, $UserId) {
-
-        //     Log::info('view-own-profile gate called', ['user_id' => $user->id, 'profile_user_id' => $UserId]);
-        //     return $user->id === $UserId;
-        // });
         Gate::define('manage-users', function (User $user) {
             return $user->role === 'Admin';
         });
@@ -94,22 +88,5 @@ class AppServiceProvider extends ServiceProvider
             return $user->role === 'Admin';
         });
 
-        Gate::define('view-borrow-records', function (User $user) {
-            return in_array($user->role, ['Admin', 'Librarian']);
-        });
-
-        //Fine
-        Gate::define('manage-fines', function (User $user) {
-            return in_array($user->role, ['Admin', 'Librarian']);
-        });
-        
-        Gate::define('pay-fines', function (User $user) {
-            return $user->role === 'Borrower';
-        });
-
-        //reservation
-        Gate::define('manage-reservations', function (User $user) {
-            return in_array($user->role, ['Admin', 'Librarian']);
-        });
     }
 }

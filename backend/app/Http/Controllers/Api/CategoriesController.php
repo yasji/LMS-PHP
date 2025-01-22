@@ -8,6 +8,7 @@ use Illuminate\Http\Request;
 
 class CategoriesController extends Controller
 {
+    # retrieve all the categories in the database
     
     public function index()
     {
@@ -18,15 +19,8 @@ class CategoriesController extends Controller
         return response()->json($categories);
     }
 
-    // public function show($id)
-    // {
-    //     $category = Category::find($id);
-    //     if (!$category) {
-    //         return response()->json(['message' => 'Category not found'], 404);
-    //     }
-    //     return response()->json($category);
-    // }
 
+    # create a new category in the database
     public function store(Request $request)
     {
         $request->validate([
@@ -37,6 +31,7 @@ class CategoriesController extends Controller
         return response()->json($category, 201);
     }
 
+    #delete a category from the database
 
     public function destroy($id)
     {

@@ -17,11 +17,7 @@ class User extends Authenticatable
 {
     use HasFactory, Notifiable, HasApiTokens;
 
-    /**
-     * The attributes that are mass assignable.
-     *
-     * @var array<int, string>
-     */
+ 
     public $timestamps = false;
     protected $fillable = [
         'name',
@@ -30,26 +26,24 @@ class User extends Authenticatable
         'role',
     ];
 
-    /**
-     * The attributes that should be hidden for serialization.
-     *
-     * @var array<int, string>
-     */
+    
     protected $hidden = [
         'password',
         'remember_token',
     ];
 
+    protected function casts(): array
+    {
+        return [
+            'email_verified_at' => 'datetime',
+            'password' => 'hashed',
+        ];
+    }
+
   
 
-    // public function borrowRecords()
-    // {
-    //     return $this->hasMany(BorrowRecord::class);
-    // }
 
-    // check how many loans a user has from the loans table using the id of the user
-
-
+    // Define a one-to-many relationship with the Loan model
     public function loans()
     {
         return $this->hasMany(Loan::class);

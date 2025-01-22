@@ -15,6 +15,8 @@ class Categories extends Model
 
 
 
+ 
+     // Get the books associated with the category.
     public function books()
     {
         return $this->hasMany(Book::class, 'genre', 'name');

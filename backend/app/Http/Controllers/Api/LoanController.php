@@ -8,7 +8,6 @@ use App\Models\Loan;
 
 class LoanController extends Controller
 {
-    // Display a listing of the loans
 
     // Display a listing of the loans with book title and user name
     public function index()
@@ -44,6 +43,35 @@ class LoanController extends Controller
         $loan->update($request->all());
         return response()->json($loan);
     }
+
+    // Check overdue loans and update status if yes
+    public function checkOverdue()
+    {
+        $loans = Loan::where('status', 'Borrowed')->get();
+        foreach ($loans as $loan) {
+            if ($loan->due_date < now()) {
+                $loan->status = 'Overdue';
+                $loan->save();
+            }
+        }
+        return response()->json(['message' => 'Overdue loans checked successfully']);
+    }
+
+    //Check overdue loans by id and update status if yes
+
+    public function checkOverdueById($id)
+    {
+        $loan = Loan::find($id);
+        if (is_null($loan)) {
+            return response()->json(['message' => 'Loan not found'], 404);
+        }
+        if ($loan->due_date < now()) {
+            $loan->status = 'Overdue';
+            $loan->save();
+        }
+        return response()->json($loan);
+    }
+
 
     // Remove the specified loan from storage
     public function destroy($id)

@@ -25,16 +25,13 @@ class Book extends Model
         'coverUrl',
     ];
 
+    
+    //Get the author that owns the book.
     public function author()
     {
         return $this->belongsTo(Author::class);
     }
-
-    // public function borrowRecords()
-    // {
-    //     return $this->hasMany(BorrowRecord::class);
-    // }
-
+    //Get the loans for the book.
     public function loans()
     {
         return $this->hasMany(Loan::class);

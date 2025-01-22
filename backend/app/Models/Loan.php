@@ -21,23 +21,17 @@ class Loan extends Model
     public $timestamps = false;
 
 
-
+    // Establishes a relationship indicating that a loan belongs to a book.
     public function book()
-
     {
-
         return $this->belongsTo(Book::class);
-
     }
 
 
-
+    // Establishes a relationship indicating that a loan belongs to a user.
     public function user()
-
     {
-
         return $this->belongsTo(User::class);
-
     }
 }
 ?>
