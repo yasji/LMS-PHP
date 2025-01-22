@@ -59,28 +59,8 @@ Route::middleware('auth:sanctum')->group(function () {
     // Loans
     Route::get('/loans', [LoanController::class, 'index'])->middleware('can:view-loans');
     Route::delete('/loans/{loan}', [LoanController::class, 'destroy'])->middleware('can:delete-loans');
+    Route::get('loans/overdue', [LoanController::class, 'checkOverdue'])->middleware('can:manage-loans');
+    Route::get('loans/overdue/{loan}', [LoanController::class, 'show']);
 
 
-
-    // Borrow Records
-    // Route::get('/borrow-records', [BorrowRecordController::class, 'index'])->middleware('can:view-borrow-records');
-    // Route::get('/borrow-records/{borrowRecord}', [BorrowRecordController::class, 'show'])->middleware('can:view-borrow-records');
-
-    //fine
-    // Route::get('/fines', [FineController::class, 'index'])->middleware('can:manage-fines');
-    // Route::get('/fines/{fine}', [FineController::class, 'show'])->middleware('can:manage-fines');
-    // Route::post('/borrow-records/{borrowRecord}/calculate-fine', [FineController::class, 'calculateFine'])->middleware('can:manage-fines');
-    // Route::patch('/fines/{fine}/pay', [FineController::class, 'payFine'])->middleware('can:pay-fines');
-
-    // //reservation
-    // Route::apiResource('reservations', ReservationController::class);
-
-    // //recommendation
-    // Route::get('/recommendations', [RecommendationController::class, 'getRecommendations']);
-
-    // //reviews
-    // Route::get('/books/{book}/reviews', [ReviewController::class, 'index']);
-    // Route::post('/books/{book}/reviews', [ReviewController::class, 'store']);
-    // Route::patch('/reviews/{review}', [ReviewController::class, 'update']);
-    // Route::delete('/reviews/{review}', [ReviewController::class, 'destroy']);
 });

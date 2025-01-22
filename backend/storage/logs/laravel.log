@@ -2203,3 +2203,264 @@
 [2025-01-20 22:26:37] local.INFO: Showing all books  
 [2025-01-20 22:26:37] local.INFO: Showing all books  
 [2025-01-20 22:26:40] local.INFO: Showing all books  
+[2025-01-21 06:36:50] local.INFO: Showing all books  
+[2025-01-21 06:36:50] local.INFO: Showing all books  
+[2025-01-21 06:36:53] local.INFO: Showing all books  
+[2025-01-21 06:37:00] local.INFO: Showing all books  
+[2025-01-21 06:37:01] local.INFO: Entering me method  
+[2025-01-21 06:37:01] local.INFO: Authenticated user {"user_id":2} 
+[2025-01-21 06:37:01] local.INFO: Borrowed books array {"borrowed_books":{"Illuminate\\Database\\Eloquent\\Collection":[]}} 
+[2025-01-21 06:37:02] local.INFO: Showing all books  
+[2025-01-21 06:37:02] local.INFO: Entering me method  
+[2025-01-21 06:37:02] local.INFO: Authenticated user {"user_id":2} 
+[2025-01-21 06:37:02] local.INFO: Borrowed books array {"borrowed_books":{"Illuminate\\Database\\Eloquent\\Collection":[]}} 
+[2025-01-22 20:49:04] local.INFO: Showing all books  
+[2025-01-22 20:49:04] local.INFO: Showing all books  
+[2025-01-22 20:50:35] local.INFO: Showing all books  
+[2025-01-22 20:50:50] local.INFO: Showing all books  
+[2025-01-22 20:50:55] local.INFO: Showing all books  
+[2025-01-22 20:50:56] local.INFO: Showing all books  
+[2025-01-22 20:51:01] local.INFO: Showing all books  
+[2025-01-22 20:51:19] local.INFO: Showing all books  
+[2025-01-22 20:51:20] local.INFO: Showing all books  
+[2025-01-22 20:51:28] local.INFO: Showing all books  
+[2025-01-22 20:52:12] local.INFO: Showing all books  
+[2025-01-22 20:52:12] local.INFO: Entering me method  
+[2025-01-22 20:52:12] local.INFO: Authenticated user {"user_id":2} 
+[2025-01-22 20:52:12] local.INFO: Borrowed books array {"borrowed_books":{"Illuminate\\Database\\Eloquent\\Collection":[]}} 
+[2025-01-22 20:52:22] local.INFO: Showing all books  
+[2025-01-22 20:52:23] local.INFO: Showing all books  
+[2025-01-22 20:52:23] local.INFO: Entering me method  
+[2025-01-22 20:52:23] local.INFO: Authenticated user {"user_id":2} 
+[2025-01-22 20:52:23] local.INFO: Borrowed books array {"borrowed_books":{"Illuminate\\Support\\Collection":[{"book_id":1,"status":"Borrowed","due_date":"2025-02-05"}]}} 
+[2025-01-22 20:53:58] local.INFO: Showing all books  
+[2025-01-22 20:54:06] local.INFO: Showing all books  
+[2025-01-22 20:54:12] local.INFO: Showing all books  
+[2025-01-22 20:54:12] local.INFO: Showing all books  
+[2025-01-22 20:54:13] local.INFO: Showing all books  
+[2025-01-22 21:01:37] local.INFO: Showing all books  
+[2025-01-22 21:01:37] local.INFO: Entering me method  
+[2025-01-22 21:01:37] local.INFO: Authenticated user {"user_id":2} 
+[2025-01-22 21:01:37] local.INFO: Borrowed books array {"borrowed_books":{"Illuminate\\Support\\Collection":[{"book_id":1,"status":"Borrowed","due_date":"2025-02-05"}]}} 
+[2025-01-22 21:02:01] local.INFO: Showing all books  
+[2025-01-22 21:02:01] local.INFO: Entering me method  
+[2025-01-22 21:02:01] local.INFO: Authenticated user {"user_id":2} 
+[2025-01-22 21:02:01] local.INFO: Borrowed books array {"borrowed_books":{"Illuminate\\Support\\Collection":[{"book_id":1,"status":"Borrowed","due_date":"2025-02-05"}]}} 
+[2025-01-22 21:03:30] local.INFO: Showing all books  
+[2025-01-22 21:03:32] local.INFO: Showing all books  
+[2025-01-22 21:04:04] local.INFO: Showing all books  
+[2025-01-22 21:04:04] local.INFO: Entering me method  
+[2025-01-22 21:04:04] local.INFO: Authenticated user {"user_id":2} 
+[2025-01-22 21:04:04] local.INFO: Borrowed books array {"borrowed_books":{"Illuminate\\Support\\Collection":[{"book_id":1,"status":"Borrowed","due_date":"2025-02-05"}]}} 
+[2025-01-22 21:05:21] local.INFO: Showing all books  
+[2025-01-22 21:05:23] local.INFO: Showing all books  
+[2025-01-22 21:06:36] local.INFO: Showing all books  
+[2025-01-22 21:06:54] local.INFO: manage-books gate called {"user_id":1} 
+[2025-01-22 21:06:54] local.INFO: Showing all books  
+[2025-01-22 21:07:02] local.INFO: Showing all books  
+[2025-01-22 21:07:12] local.INFO: Showing all books  
+[2025-01-22 21:07:55] local.INFO: Showing all books  
+[2025-01-22 21:07:55] local.INFO: Showing all books  
+[2025-01-22 21:07:55] local.INFO: Entering me method  
+[2025-01-22 21:07:55] local.INFO: Authenticated user {"user_id":2} 
+[2025-01-22 21:07:55] local.INFO: Borrowed books array {"borrowed_books":{"Illuminate\\Support\\Collection":[{"book_id":1,"status":"Borrowed","due_date":"2025-02-05"}]}} 
+[2025-01-22 21:08:08] local.INFO: Showing all books  
+[2025-01-22 21:08:09] local.INFO: Showing all books  
+[2025-01-22 21:08:09] local.INFO: Entering me method  
+[2025-01-22 21:08:09] local.INFO: Authenticated user {"user_id":2} 
+[2025-01-22 21:08:09] local.INFO: Borrowed books array {"borrowed_books":{"Illuminate\\Support\\Collection":[{"book_id":1,"status":"Borrowed","due_date":"2025-02-05"},{"book_id":55,"status":"Borrowed","due_date":"2025-02-05"}]}} 
+[2025-01-22 21:08:17] local.INFO: Showing all books  
+[2025-01-22 21:08:17] local.INFO: Entering me method  
+[2025-01-22 21:08:17] local.INFO: Authenticated user {"user_id":2} 
+[2025-01-22 21:08:17] local.INFO: Borrowed books array {"borrowed_books":{"Illuminate\\Support\\Collection":[{"book_id":1,"status":"Borrowed","due_date":"2025-02-05"},{"book_id":55,"status":"Returned","due_date":"2025-02-05"}]}} 
+[2025-01-22 21:13:17] local.INFO: Showing all books  
+[2025-01-22 21:13:17] local.INFO: Entering me method  
+[2025-01-22 21:13:17] local.INFO: Authenticated user {"user_id":2} 
+[2025-01-22 21:13:17] local.INFO: Borrowed books array {"borrowed_books":{"Illuminate\\Support\\Collection":[{"book_id":1,"status":"Borrowed","due_date":"2025-02-05"}]}} 
+[2025-01-22 21:13:22] local.INFO: Showing all books  
+[2025-01-22 21:13:22] local.INFO: Entering me method  
+[2025-01-22 21:13:22] local.INFO: Authenticated user {"user_id":2} 
+[2025-01-22 21:13:22] local.INFO: Borrowed books array {"borrowed_books":{"Illuminate\\Support\\Collection":[{"book_id":1,"status":"Borrowed","due_date":"2025-02-05"}]}} 
+[2025-01-22 21:13:31] local.INFO: Showing all books  
+[2025-01-22 21:13:31] local.INFO: Entering me method  
+[2025-01-22 21:13:31] local.INFO: Authenticated user {"user_id":2} 
+[2025-01-22 21:13:31] local.INFO: Borrowed books array {"borrowed_books":{"Illuminate\\Support\\Collection":[{"book_id":1,"status":"Borrowed","due_date":"2025-02-05"}]}} 
+[2025-01-22 21:13:36] local.INFO: Showing all books  
+[2025-01-22 21:13:37] local.INFO: Entering me method  
+[2025-01-22 21:13:37] local.INFO: Authenticated user {"user_id":2} 
+[2025-01-22 21:13:37] local.INFO: Borrowed books array {"borrowed_books":{"Illuminate\\Support\\Collection":[{"book_id":1,"status":"Borrowed","due_date":"2025-02-05"}]}} 
+[2025-01-22 21:13:43] local.INFO: Showing all books  
+[2025-01-22 21:13:43] local.INFO: Entering me method  
+[2025-01-22 21:13:43] local.INFO: Authenticated user {"user_id":2} 
+[2025-01-22 21:13:43] local.INFO: Borrowed books array {"borrowed_books":{"Illuminate\\Support\\Collection":[{"book_id":1,"status":"Borrowed","due_date":"2025-02-05"}]}} 
+[2025-01-22 21:13:47] local.INFO: Showing all books  
+[2025-01-22 21:13:47] local.INFO: Entering me method  
+[2025-01-22 21:13:47] local.INFO: Authenticated user {"user_id":2} 
+[2025-01-22 21:13:47] local.INFO: Borrowed books array {"borrowed_books":{"Illuminate\\Support\\Collection":[{"book_id":1,"status":"Borrowed","due_date":"2025-02-05"}]}} 
+[2025-01-22 21:14:07] local.INFO: Showing all books  
+[2025-01-22 21:14:07] local.INFO: Entering me method  
+[2025-01-22 21:14:07] local.INFO: Authenticated user {"user_id":2} 
+[2025-01-22 21:14:07] local.INFO: Borrowed books array {"borrowed_books":{"Illuminate\\Support\\Collection":[{"book_id":1,"status":"Borrowed","due_date":"2025-02-05"}]}} 
+[2025-01-22 21:14:12] local.INFO: Showing all books  
+[2025-01-22 21:14:12] local.INFO: Entering me method  
+[2025-01-22 21:14:12] local.INFO: Authenticated user {"user_id":2} 
+[2025-01-22 21:14:12] local.INFO: Borrowed books array {"borrowed_books":{"Illuminate\\Support\\Collection":[{"book_id":1,"status":"Borrowed","due_date":"2025-02-05"}]}} 
+[2025-01-22 21:14:15] local.INFO: Showing all books  
+[2025-01-22 21:14:15] local.INFO: Entering me method  
+[2025-01-22 21:14:15] local.INFO: Authenticated user {"user_id":2} 
+[2025-01-22 21:14:15] local.INFO: Borrowed books array {"borrowed_books":{"Illuminate\\Support\\Collection":[{"book_id":1,"status":"Borrowed","due_date":"2025-02-05"}]}} 
+[2025-01-22 21:15:23] local.INFO: Showing all books  
+[2025-01-22 21:15:23] local.INFO: Entering me method  
+[2025-01-22 21:15:23] local.INFO: Authenticated user {"user_id":2} 
+[2025-01-22 21:15:23] local.INFO: Borrowed books array {"borrowed_books":{"Illuminate\\Support\\Collection":[{"book_id":1,"status":"overdue","due_date":"2025-01-05"}]}} 
+[2025-01-22 21:15:24] local.INFO: Showing all books  
+[2025-01-22 21:15:24] local.INFO: Entering me method  
+[2025-01-22 21:15:24] local.INFO: Authenticated user {"user_id":2} 
+[2025-01-22 21:15:24] local.INFO: Borrowed books array {"borrowed_books":{"Illuminate\\Support\\Collection":[{"book_id":1,"status":"overdue","due_date":"2025-01-05"}]}} 
+[2025-01-22 21:16:10] local.INFO: Showing all books  
+[2025-01-22 21:16:10] local.INFO: Entering me method  
+[2025-01-22 21:16:10] local.INFO: Authenticated user {"user_id":2} 
+[2025-01-22 21:16:10] local.INFO: Borrowed books array {"borrowed_books":{"Illuminate\\Support\\Collection":[{"book_id":1,"status":"overdue","due_date":"2025-01-05"}]}} 
+[2025-01-22 21:18:12] local.INFO: Showing all books  
+[2025-01-22 21:18:12] local.INFO: Entering me method  
+[2025-01-22 21:18:12] local.INFO: Authenticated user {"user_id":2} 
+[2025-01-22 21:18:12] local.INFO: Borrowed books array {"borrowed_books":{"Illuminate\\Support\\Collection":[{"book_id":1,"status":"overdue","due_date":"2025-01-05"}]}} 
+[2025-01-22 21:18:15] local.INFO: Showing all books  
+[2025-01-22 21:18:15] local.INFO: Entering me method  
+[2025-01-22 21:18:15] local.INFO: Authenticated user {"user_id":2} 
+[2025-01-22 21:18:15] local.INFO: Borrowed books array {"borrowed_books":{"Illuminate\\Support\\Collection":[{"book_id":1,"status":"overdue","due_date":"2025-01-05"}]}} 
+[2025-01-22 21:18:42] local.INFO: Showing all books  
+[2025-01-22 21:18:42] local.INFO: Entering me method  
+[2025-01-22 21:18:42] local.INFO: Authenticated user {"user_id":2} 
+[2025-01-22 21:18:42] local.INFO: Borrowed books array {"borrowed_books":{"Illuminate\\Support\\Collection":[{"book_id":1,"status":"Overdu","due_date":"2025-01-05"}]}} 
+[2025-01-22 21:18:55] local.INFO: Showing all books  
+[2025-01-22 21:18:55] local.INFO: Entering me method  
+[2025-01-22 21:18:55] local.INFO: Authenticated user {"user_id":2} 
+[2025-01-22 21:18:55] local.INFO: Borrowed books array {"borrowed_books":{"Illuminate\\Support\\Collection":[{"book_id":1,"status":"Overdue","due_date":"2025-01-05"}]}} 
+[2025-01-22 21:19:02] local.INFO: Showing all books  
+[2025-01-22 21:19:02] local.INFO: Entering me method  
+[2025-01-22 21:19:02] local.INFO: Authenticated user {"user_id":2} 
+[2025-01-22 21:19:02] local.INFO: Borrowed books array {"borrowed_books":{"Illuminate\\Support\\Collection":[{"book_id":1,"status":"Overdue","due_date":"2025-01-05"}]}} 
+[2025-01-22 21:20:03] local.INFO: Showing all books  
+[2025-01-22 21:20:03] local.INFO: Entering me method  
+[2025-01-22 21:20:03] local.INFO: Authenticated user {"user_id":2} 
+[2025-01-22 21:20:03] local.INFO: Borrowed books array {"borrowed_books":{"Illuminate\\Support\\Collection":[{"book_id":1,"status":"Overdue","due_date":"2025-01-05"}]}} 
+[2025-01-22 21:20:08] local.INFO: Showing all books  
+[2025-01-22 21:20:08] local.INFO: Entering me method  
+[2025-01-22 21:20:08] local.INFO: Authenticated user {"user_id":2} 
+[2025-01-22 21:20:08] local.INFO: Borrowed books array {"borrowed_books":{"Illuminate\\Support\\Collection":[{"book_id":1,"status":"Returned","due_date":"2025-01-05"}]}} 
+[2025-01-22 21:20:25] local.INFO: Showing all books  
+[2025-01-22 21:20:56] local.INFO: Showing all books  
+[2025-01-22 21:20:56] local.INFO: Showing all books  
+[2025-01-22 21:20:56] local.INFO: Entering me method  
+[2025-01-22 21:20:56] local.INFO: Authenticated user {"user_id":2} 
+[2025-01-22 21:20:56] local.INFO: Borrowed books array {"borrowed_books":{"Illuminate\\Database\\Eloquent\\Collection":[]}} 
+[2025-01-22 21:20:57] local.INFO: Showing all books  
+[2025-01-22 21:20:57] local.INFO: Showing all books  
+[2025-01-22 21:20:57] local.INFO: Entering me method  
+[2025-01-22 21:20:57] local.INFO: Authenticated user {"user_id":2} 
+[2025-01-22 21:20:57] local.INFO: Borrowed books array {"borrowed_books":{"Illuminate\\Database\\Eloquent\\Collection":[]}} 
+[2025-01-22 21:21:01] local.INFO: Showing all books  
+[2025-01-22 21:21:02] local.INFO: Showing all books  
+[2025-01-22 21:21:02] local.INFO: Entering me method  
+[2025-01-22 21:21:02] local.INFO: Authenticated user {"user_id":2} 
+[2025-01-22 21:21:02] local.INFO: Borrowed books array {"borrowed_books":{"Illuminate\\Support\\Collection":[{"book_id":45,"status":"Borrowed","due_date":"2025-02-05"}]}} 
+[2025-01-22 21:21:06] local.INFO: Showing all books  
+[2025-01-22 21:21:06] local.INFO: Entering me method  
+[2025-01-22 21:21:06] local.INFO: Authenticated user {"user_id":2} 
+[2025-01-22 21:21:06] local.INFO: Borrowed books array {"borrowed_books":{"Illuminate\\Support\\Collection":[{"book_id":45,"status":"Borrowed","due_date":"2025-02-05"}]}} 
+[2025-01-22 21:21:25] local.INFO: Showing all books  
+[2025-01-22 21:21:25] local.INFO: Showing all books  
+[2025-01-22 21:21:25] local.INFO: Entering me method  
+[2025-01-22 21:21:25] local.INFO: Authenticated user {"user_id":2} 
+[2025-01-22 21:21:25] local.INFO: Borrowed books array {"borrowed_books":{"Illuminate\\Support\\Collection":[{"book_id":45,"status":"Borrowed","due_date":"2025-02-05"}]}} 
+[2025-01-22 21:21:28] local.INFO: Showing all books  
+[2025-01-22 21:21:28] local.INFO: Entering me method  
+[2025-01-22 21:21:28] local.INFO: Authenticated user {"user_id":2} 
+[2025-01-22 21:21:28] local.INFO: Borrowed books array {"borrowed_books":{"Illuminate\\Support\\Collection":[{"book_id":45,"status":"Borrowed","due_date":"2025-02-05"}]}} 
+[2025-01-22 21:21:29] local.INFO: Showing all books  
+[2025-01-22 21:21:29] local.INFO: Showing all books  
+[2025-01-22 21:21:29] local.INFO: Entering me method  
+[2025-01-22 21:21:29] local.INFO: Authenticated user {"user_id":2} 
+[2025-01-22 21:21:29] local.INFO: Borrowed books array {"borrowed_books":{"Illuminate\\Support\\Collection":[{"book_id":45,"status":"Borrowed","due_date":"2025-02-05"}]}} 
+[2025-01-22 21:22:42] local.INFO: Showing all books  
+[2025-01-22 21:24:03] local.INFO: Showing all books  
+[2025-01-22 21:24:03] local.INFO: Entering me method  
+[2025-01-22 21:24:03] local.INFO: Authenticated user {"user_id":2} 
+[2025-01-22 21:24:03] local.INFO: Borrowed books array {"borrowed_books":{"Illuminate\\Support\\Collection":[{"book_id":45,"status":"Borrowed","due_date":"2025-02-05"}]}} 
+[2025-01-22 21:24:15] local.INFO: Showing all books  
+[2025-01-22 21:24:22] local.INFO: Showing all books  
+[2025-01-22 21:24:24] local.INFO: Showing all books  
+[2025-01-22 21:27:49] local.INFO: Showing all books  
+[2025-01-22 21:27:49] local.INFO: Entering me method  
+[2025-01-22 21:27:49] local.INFO: Authenticated user {"user_id":2} 
+[2025-01-22 21:27:49] local.INFO: Borrowed books array {"borrowed_books":{"Illuminate\\Support\\Collection":[{"book_id":45,"status":"Borrowed","due_date":"2025-02-05"}]}} 
+[2025-01-22 21:27:56] local.INFO: Showing all books  
+[2025-01-22 21:27:56] local.INFO: Entering me method  
+[2025-01-22 21:27:56] local.INFO: Authenticated user {"user_id":2} 
+[2025-01-22 21:27:56] local.INFO: Borrowed books array {"borrowed_books":{"Illuminate\\Support\\Collection":[{"book_id":45,"status":"Borrowed","due_date":"2025-02-05"}]}} 
+[2025-01-22 21:28:00] local.INFO: Showing all books  
+[2025-01-22 21:28:00] local.INFO: Entering me method  
+[2025-01-22 21:28:00] local.INFO: Authenticated user {"user_id":2} 
+[2025-01-22 21:28:00] local.INFO: Borrowed books array {"borrowed_books":{"Illuminate\\Support\\Collection":[{"book_id":45,"status":"Borrowed","due_date":"2025-02-05"}]}} 
+[2025-01-22 21:28:03] local.INFO: Showing all books  
+[2025-01-22 21:28:03] local.INFO: Entering me method  
+[2025-01-22 21:28:03] local.INFO: Authenticated user {"user_id":2} 
+[2025-01-22 21:28:03] local.INFO: Borrowed books array {"borrowed_books":{"Illuminate\\Support\\Collection":[{"book_id":45,"status":"Borrowed","due_date":"2025-02-05"}]}} 
+[2025-01-22 21:28:24] local.INFO: Showing all books  
+[2025-01-22 21:28:24] local.INFO: Entering me method  
+[2025-01-22 21:28:24] local.INFO: Authenticated user {"user_id":2} 
+[2025-01-22 21:28:24] local.INFO: Borrowed books array {"borrowed_books":{"Illuminate\\Support\\Collection":[{"book_id":45,"status":"Borrowed","due_date":"2025-02-05"}]}} 
+[2025-01-22 21:28:25] local.INFO: Showing all books  
+[2025-01-22 21:28:25] local.INFO: Entering me method  
+[2025-01-22 21:28:25] local.INFO: Authenticated user {"user_id":2} 
+[2025-01-22 21:28:25] local.INFO: Borrowed books array {"borrowed_books":{"Illuminate\\Support\\Collection":[{"book_id":45,"status":"Borrowed","due_date":"2025-02-05"}]}} 
+[2025-01-22 21:28:46] local.INFO: Showing all books  
+[2025-01-22 21:28:46] local.INFO: Entering me method  
+[2025-01-22 21:28:46] local.INFO: Authenticated user {"user_id":2} 
+[2025-01-22 21:28:46] local.INFO: Borrowed books array {"borrowed_books":{"Illuminate\\Support\\Collection":[{"book_id":45,"status":"Borrowed","due_date":"2025-02-05"}]}} 
+[2025-01-22 21:28:48] local.INFO: Showing all books  
+[2025-01-22 21:28:48] local.INFO: Entering me method  
+[2025-01-22 21:28:48] local.INFO: Authenticated user {"user_id":2} 
+[2025-01-22 21:28:48] local.INFO: Borrowed books array {"borrowed_books":{"Illuminate\\Support\\Collection":[{"book_id":45,"status":"Borrowed","due_date":"2025-02-05"}]}} 
+[2025-01-22 21:28:54] local.INFO: Showing all books  
+[2025-01-22 21:28:54] local.INFO: Entering me method  
+[2025-01-22 21:28:54] local.INFO: Authenticated user {"user_id":2} 
+[2025-01-22 21:28:54] local.INFO: Borrowed books array {"borrowed_books":{"Illuminate\\Support\\Collection":[{"book_id":45,"status":"Borrowed","due_date":"2025-02-05"}]}} 
+[2025-01-22 21:28:56] local.INFO: Showing all books  
+[2025-01-22 21:28:56] local.INFO: Entering me method  
+[2025-01-22 21:28:56] local.INFO: Authenticated user {"user_id":2} 
+[2025-01-22 21:28:56] local.INFO: Borrowed books array {"borrowed_books":{"Illuminate\\Support\\Collection":[{"book_id":45,"status":"Borrowed","due_date":"2025-02-05"}]}} 
+[2025-01-22 21:29:02] local.INFO: Showing all books  
+[2025-01-22 21:29:02] local.INFO: Entering me method  
+[2025-01-22 21:29:02] local.INFO: Authenticated user {"user_id":2} 
+[2025-01-22 21:29:02] local.INFO: Borrowed books array {"borrowed_books":{"Illuminate\\Support\\Collection":[{"book_id":45,"status":"Borrowed","due_date":"2025-02-05"}]}} 
+[2025-01-22 21:30:47] local.INFO: Showing all books  
+[2025-01-22 21:30:47] local.INFO: Entering me method  
+[2025-01-22 21:30:47] local.INFO: Authenticated user {"user_id":2} 
+[2025-01-22 21:30:47] local.INFO: Borrowed books array {"borrowed_books":{"Illuminate\\Support\\Collection":[{"book_id":45,"status":"Borrowed","due_date":"2025-01-05"}]}} 
+[2025-01-22 21:30:48] local.INFO: Showing all books  
+[2025-01-22 21:30:49] local.INFO: Entering me method  
+[2025-01-22 21:30:49] local.INFO: Authenticated user {"user_id":2} 
+[2025-01-22 21:30:49] local.INFO: Borrowed books array {"borrowed_books":{"Illuminate\\Support\\Collection":[{"book_id":45,"status":"Borrowed","due_date":"2025-01-05"}]}} 
+[2025-01-22 21:30:49] local.INFO: Showing all books  
+[2025-01-22 21:30:49] local.INFO: Entering me method  
+[2025-01-22 21:30:49] local.INFO: Authenticated user {"user_id":2} 
+[2025-01-22 21:30:49] local.INFO: Borrowed books array {"borrowed_books":{"Illuminate\\Support\\Collection":[{"book_id":45,"status":"Borrowed","due_date":"2025-01-05"}]}} 
+[2025-01-22 21:30:58] local.INFO: Showing all books  
+[2025-01-22 21:30:58] local.INFO: Entering me method  
+[2025-01-22 21:30:58] local.INFO: Authenticated user {"user_id":2} 
+[2025-01-22 21:30:58] local.INFO: Borrowed books array {"borrowed_books":{"Illuminate\\Support\\Collection":[{"book_id":45,"status":"Borrowed","due_date":"2025-01-05"}]}} 
+[2025-01-22 21:31:14] local.INFO: Showing all books  
+[2025-01-22 21:31:15] local.INFO: Showing all books  
+[2025-01-22 21:31:18] local.INFO: Showing all books  
+[2025-01-22 21:31:20] local.INFO: Showing all books  
+[2025-01-22 21:31:23] local.INFO: Showing all books  
+[2025-01-22 21:31:26] local.INFO: Showing all books  
+[2025-01-22 21:31:31] local.INFO: Showing all books  
+[2025-01-22 21:31:33] local.INFO: Showing all books  
+[2025-01-22 21:31:38] local.INFO: Showing all books  
+[2025-01-22 21:31:42] local.INFO: Showing all books  
+[2025-01-22 21:31:42] local.INFO: Entering me method  
+[2025-01-22 21:31:42] local.INFO: Authenticated user {"user_id":2} 
+[2025-01-22 21:31:42] local.INFO: Borrowed books array {"borrowed_books":{"Illuminate\\Database\\Eloquent\\Collection":[]}} 
